@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "JYKit",
+        "repositoryURL": "https://github.com/dyljqq/JYKit.git",
+        "state": {
+          "branch": "master",
+          "revision": "4b46af4c9ba68f463355f883f89f858fcc1682cf",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

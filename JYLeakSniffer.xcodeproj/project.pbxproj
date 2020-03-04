@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,16 +13,8 @@
 		735C5B0D240679C4004BF94B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735C5B0B240679C4004BF94B /* Main.storyboard */; };
 		735C5B0F240679C6004BF94B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 735C5B0E240679C6004BF94B /* Assets.xcassets */; };
 		735C5B12240679C6004BF94B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735C5B10240679C6004BF94B /* LaunchScreen.storyboard */; };
-		735C5B1F240679E6004BF94B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735C5B1B240679E6004BF94B /* Constants.swift */; };
-		735C5B20240679E6004BF94B /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735C5B1C240679E6004BF94B /* NSObject+Extension.swift */; };
-		735C5B21240679E6004BF94B /* Snifferable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735C5B1D240679E6004BF94B /* Snifferable.swift */; };
-		735C5B22240679E6004BF94B /* JYObjectProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735C5B1E240679E6004BF94B /* JYObjectProxy.swift */; };
-		735C5B2424068019004BF94B /* JYLeakSniffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735C5B2324068019004BF94B /* JYLeakSniffer.swift */; };
-		735C5B282407B66C004BF94B /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735C5B272407B66C004BF94B /* UIViewController+Extension.swift */; };
-		735C5B2E240E6998004BF94B /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735C5B2D240E6998004BF94B /* String+Extension.swift */; };
 		735C5B30240E6B0E004BF94B /* JYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735C5B2F240E6B0E004BF94B /* JYViewController.swift */; };
-		73B2E57D240FA15A00D2CC76 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B2E57C240FA15A00D2CC76 /* UIView+Extension.swift */; };
-		73B2E57F240FA6BF00D2CC76 /* UINavigation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B2E57E240FA6BF00D2CC76 /* UINavigation+Extension.swift */; };
+		73B2E582240FCBF800D2CC76 /* JYKit in Frameworks */ = {isa = PBXBuildFile; productRef = 73B2E581240FCBF800D2CC76 /* JYKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,16 +26,7 @@
 		735C5B0E240679C6004BF94B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		735C5B11240679C6004BF94B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		735C5B13240679C6004BF94B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		735C5B1B240679E6004BF94B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		735C5B1C240679E6004BF94B /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
-		735C5B1D240679E6004BF94B /* Snifferable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snifferable.swift; sourceTree = "<group>"; };
-		735C5B1E240679E6004BF94B /* JYObjectProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYObjectProxy.swift; sourceTree = "<group>"; };
-		735C5B2324068019004BF94B /* JYLeakSniffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYLeakSniffer.swift; sourceTree = "<group>"; };
-		735C5B272407B66C004BF94B /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
-		735C5B2D240E6998004BF94B /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		735C5B2F240E6B0E004BF94B /* JYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYViewController.swift; sourceTree = "<group>"; };
-		73B2E57C240FA15A00D2CC76 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		73B2E57E240FA6BF00D2CC76 /* UINavigation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigation+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73B2E582240FCBF800D2CC76 /* JYKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +60,6 @@
 		735C5B04240679C4004BF94B /* JYLeakSniffer */ = {
 			isa = PBXGroup;
 			children = (
-				735C5B19240679E6004BF94B /* Tools */,
 				735C5B05240679C4004BF94B /* AppDelegate.swift */,
 				735C5B07240679C4004BF94B /* SceneDelegate.swift */,
 				735C5B09240679C4004BF94B /* ViewController.swift */,
@@ -87,30 +70,6 @@
 				735C5B2F240E6B0E004BF94B /* JYViewController.swift */,
 			);
 			path = JYLeakSniffer;
-			sourceTree = "<group>";
-		};
-		735C5B19240679E6004BF94B /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				735C5B1A240679E6004BF94B /* LeakSniffer */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		735C5B1A240679E6004BF94B /* LeakSniffer */ = {
-			isa = PBXGroup;
-			children = (
-				735C5B1B240679E6004BF94B /* Constants.swift */,
-				735C5B1C240679E6004BF94B /* NSObject+Extension.swift */,
-				735C5B1D240679E6004BF94B /* Snifferable.swift */,
-				735C5B1E240679E6004BF94B /* JYObjectProxy.swift */,
-				735C5B2324068019004BF94B /* JYLeakSniffer.swift */,
-				735C5B272407B66C004BF94B /* UIViewController+Extension.swift */,
-				735C5B2D240E6998004BF94B /* String+Extension.swift */,
-				73B2E57C240FA15A00D2CC76 /* UIView+Extension.swift */,
-				73B2E57E240FA6BF00D2CC76 /* UINavigation+Extension.swift */,
-			);
-			path = LeakSniffer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +88,9 @@
 			dependencies = (
 			);
 			name = JYLeakSniffer;
+			packageProductDependencies = (
+				73B2E581240FCBF800D2CC76 /* JYKit */,
+			);
 			productName = JYLeakSniffer;
 			productReference = 735C5B02240679C4004BF94B /* JYLeakSniffer.app */;
 			productType = "com.apple.product-type.application";
@@ -157,6 +119,9 @@
 				Base,
 			);
 			mainGroup = 735C5AF9240679C4004BF94B;
+			packageReferences = (
+				73B2E580240FCBF800D2CC76 /* XCRemoteSwiftPackageReference "JYKit" */,
+			);
 			productRefGroup = 735C5B03240679C4004BF94B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -184,19 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				735C5B282407B66C004BF94B /* UIViewController+Extension.swift in Sources */,
-				735C5B2E240E6998004BF94B /* String+Extension.swift in Sources */,
-				735C5B20240679E6004BF94B /* NSObject+Extension.swift in Sources */,
 				735C5B0A240679C4004BF94B /* ViewController.swift in Sources */,
 				735C5B06240679C4004BF94B /* AppDelegate.swift in Sources */,
-				735C5B2424068019004BF94B /* JYLeakSniffer.swift in Sources */,
-				73B2E57F240FA6BF00D2CC76 /* UINavigation+Extension.swift in Sources */,
-				73B2E57D240FA15A00D2CC76 /* UIView+Extension.swift in Sources */,
-				735C5B21240679E6004BF94B /* Snifferable.swift in Sources */,
-				735C5B22240679E6004BF94B /* JYObjectProxy.swift in Sources */,
 				735C5B30240E6B0E004BF94B /* JYViewController.swift in Sources */,
 				735C5B08240679C4004BF94B /* SceneDelegate.swift in Sources */,
-				735C5B1F240679E6004BF94B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +350,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		73B2E580240FCBF800D2CC76 /* XCRemoteSwiftPackageReference "JYKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dyljqq/JYKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		73B2E581240FCBF800D2CC76 /* JYKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73B2E580240FCBF800D2CC76 /* XCRemoteSwiftPackageReference "JYKit" */;
+			productName = JYKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 735C5AFA240679C4004BF94B /* Project object */;
 }
