@@ -12,9 +12,12 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    
+    DispatchQueue.main.asyncAfter(deadline: .now() + 5) { [weak self] in
+      let vc = JYViewController()
+      self?.present(vc, animated: true, completion: nil)
+    }
   }
-
-
+  
 }
 
